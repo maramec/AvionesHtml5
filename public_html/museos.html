@@ -1,0 +1,75 @@
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="aviones, html, css, html5, css3, bootstrap, inftel, js, javascript, nytimes api, google maps">
+        <meta name="author" content="">
+
+        <title>WWII News</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/estilo-aviones.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <div class="brand">WWII Planes</div>
+        <div class="address-bar">CSS3 | HTML5 | Bootstrap | JQUERY | JSON</div>
+
+        <div id="idNav">
+            <!-- cargando nav por JS -->
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Closest <strong>aviation museum</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-8">
+                    <div id="map-canvas"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="nombreMuseo">
+                        <p><strong>Nombre:</strong>
+                            Cargando datos</p></div>
+                    <div id="direccion">
+                        <p><strong>Direccion:</strong>
+                            Esperando a Google... <small>(lentos)</small></p>                                
+                    </div>
+                    <br><br>
+                    
+                    <form id="searchFormMuseum">
+                        <strong>   
+                            Search in other city: </strong><INPUT type="text" name="search_city" placeholder="Introduce city" required>
+                            <INPUT name="submit" type="submit" value="submit">
+                        
+                            </form>
+                         
+                </div>
+            </div>
+        </div>
+
+        <div id="idFooter">
+            <!-- cargando footer desde js -->
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="js/mapas.js"></script>
+        
+        <script src="js/footer.js"></script>
+        <script src="js/navigation.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+
+{
+    "nosotros":[{
+             "foto": "img/pilot2.jpg",
+             "nombre":"Maria Expósito Cardenas",
+             "titulacion":"Software Engineer",
+             "discription":"Manager of 'Museum' area, she used google's geolocation  services to include the closest."},
+         {
+            "foto": "img/pilot3.jpg",
+             "nombre":"Miguel Garcia Martinez",
+             "titulacion":"Software Engineer",
+             "discription":"Manager of 'Index', using Flickr API and various technologies to create a dynamic page."  
+         },
+         {
+             "foto": "img/pilot.jpg",
+             "nombre":"Eduard Roland Ockerse",
+             "titulacion":"Software Engineer",
+             "discription":"Manager of 'News' area, using NYTimes's API and various technologies to create a dynamic page. "
+         },
+         {
+             "foto": "img/pilot4.jpg",
+             "nombre":"Ghizlan El Ouafa Hachoub",
+             "titulacion":"Telecomunication Engineer",
+             "discription":"Manager of 'About Us' area, using JSON to load the page's content dynamically."
+         },
+         {
+             "foto": "img/pilot1.jpg",
+             "nombre":"Youssef Bounani",
+             "titulacion":"Telecomunication Engineer",
+             "discription":"Manager of 'Planes' area, using JSON to load the page's content dynamically."
+         }
+]}
